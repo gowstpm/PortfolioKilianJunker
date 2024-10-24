@@ -8,7 +8,8 @@
 </head>
 <body>
   <header id="header">
-    <div class="d-flex flex-column">
+    <div class="header">
+      <div class="d-flex flex-column">
 
       <div class="profile">
         <img src="images/image1.png" alt="Profile Picture">
@@ -30,6 +31,10 @@
           <li><a href="#contact" class="link"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav>
+    </div>
+  </div>
+    <div class="mobile-header">
+      
     </div>
   </header>
 
