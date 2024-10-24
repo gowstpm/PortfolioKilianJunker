@@ -25,7 +25,7 @@
           <li><a href="#formation" class="link"><i class="bi bi-mortarboard"></i> <span>Formation</span></a></li>
           <li><a href="#skills" class="link"><i class="bi bi-folder"></i> <span>Compétences</span></a></li>
           <li><a href="#resume" class="link active"><i class="bx bx-file"></i> <span>Parcours</span></a></li>
-          <li><a href="#portfolio" class="link"><i class="bx bx-book"></i> <span>Expériences</span></a></li>
+          <li><a href="#experience" class="link"><i class="bx bx-book"></i> <span>Expériences</span></a></li>
           <li><a href="#services" class="link"><i class="bi bi-newspaper"></i> <span>Veille</span></a></li>
           <li><a href="#contact" class="link"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
