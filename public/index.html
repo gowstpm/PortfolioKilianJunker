@@ -1,222 +1,391 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PortFolio Kilian Junker</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kilian Junker</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 </head>
+
 <body>
-  <header id="header">
-    <div class="header">
-      <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="images/image1.png" alt="Profile Picture">
-        <h1 class="text-light text-center"><a href="index.html">Kilian Junker</a></h1>
-        <div>
-          <a href="https://www.linkedin.com/in/kilian-junker" class="linkedin"></a>
-        </div>
-      </div>
-
-      <nav id="navbar" class="nav-menu">
-        <ul>
-          <li><a href="#hero" class="link"><i class="bx bx-home"></i> <span>Accueil</span></a></li>
-          <li><a href="#about" class="link"><i class="bx bx-user"></i> <span>À propos</span></a></li>
-          <li><a href="#formation" class="link"><i class="bi bi-mortarboard"></i> <span>Formation</span></a></li>
-          <li><a href="#skills" class="link"><i class="bi bi-folder"></i> <span>Compétences</span></a></li>
-          <li><a href="#resume" class="link active"><i class="bx bx-file"></i> <span>Parcours</span></a></li>
-          <li><a href="#experience" class="link"><i class="bx bx-book"></i> <span>Expériences</span></a></li>
-          <li><a href="#services" class="link"><i class="bi bi-newspaper"></i> <span>Veille</span></a></li>
-          <li><a href="#contact" class="link"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
     </div>
-  </div>
-    <div class="mobile-header">
-      
-    </div>
-  </header>
 
-  <!-- Sections -->
-  <div class="home">
-    <div class="title">
-      <h1>Kilian Junker <br>Alternant BTS SIO</h1>
-    </div>
-  </div>
+    <div class="container">
+        <section class="landing">
+            <div class="row vertical-center">
+                <div class="col-lg-8 text-left pb-5">
+                    <h1 class="display-1">Kilian Junker</h1>
+                    <p class="lead pl-2">Alternant BTS SIO</p>
+                </div>
+                <div class="col-lg-4 text-center my-auto pb-5 rounded-circle"><img class="img-fluid rounded-circle"
+                        src="https://picsum.photos/512"></div>
+            </div>
+        </section>
 
-  <section id="about">
-    <div class="content">
-      <div class="about-content">
-        <img src="images/image1.png" alt="Kilian Junker" class="about-image">
-        <div class="about-text">
-          <h2>À propos</h2>
-          <div class="ligne"></div>
-          <p>Je suis Kilian Junker, un développeur web passionné et un professionnel du support informatique. J'ai une solide expérience dans la création de sites web en utilisant les langages de code tels que HTML, CSS et JavaScript. J'ai développé plusieurs sites web, en mettant l'accent sur l'esthétique, la convivialité et les fonctionnalités interactives. 🤝</p>
-          <p>Actuellement, je suis diplômé d'un BAC Général avec les spécialités STMG.</p>
-          <p>L'année prochaine, j'envisage de continuer dans une formation informatique en alternance.</p>
-        </div>
-      </div>
-    </div>
-  </section>  
+        <section class="mt-5 mb-5">
+            <h4 class="display-4">A propos de moi,</h4>
+            <div class="row">
+                <div class="col-lg-6 wrap text-left">
+                    <div class="about-desc">
+                        <h1 class="bold-text">À propos</h1>
+                        <div class="pt-5">
+                            <h2 class="mb-5">Bonjour !</h2>
+                            <p>Je suis Kilian Junker, un développeur web passionné et un professionnel du support informatique. J'ai une solide expérience dans la création de sites web en utilisant des langages tels que HTML, CSS et JavaScript. J'ai développé plusieurs sites web, en mettant l'accent sur l'esthétique, la convivialité et les fonctionnalités interactives. Actuellement, je suis diplômé d'un BAC Général avec les spécialités STMG et l'année prochaine, je continue ma formation en informatique en alternance.</p>
+                            <ul class="social-links list-unstyled mt-4">
+                                <li><a href="kilianjunksco@gmail.com">
+                                        <ion-icon name="mail-outline"></ion-icon>
+                                    </a></li>
+                                <li><a href="https://github.com/gowstpm">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                    </a></li>
+                                <li><a href="https://www.linkedin.com/in/kilian-junker-122771267/">
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wrap align-content-center">
+                    <div class="row mt-5 flex-column">
+                        <div class="col-md-8">
+                            <h2 class="mb-4">Mes compétences</h2>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="progress-wrap">
+                                <h4>HTML</h4>
+                                <div class="progress progress-style">
+                                    <div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="progress-wrap">
+                                <h4>CSS</h4>
+                                <div class="progress progress-style">
+                                    <div class="progress-bar color-1" role="progressbar" aria-valuenow="60"
+                                        aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="progress-wrap">
+                                <h4>JavaScript</h4>
+                                <div class="progress progress-style">
+                                    <div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section id="formation">
-    <div class="content">
-      
-      <h1>Le BTS SIO, qu'est-ce que c'est ?</h1>
-      <div class="ligne"></div>
-      <p>Le Brevet de Technicien Supérieur - Services Informatiques aux Organisations (BTS SIO) s'adresse à ceux qui souhaitent se former aux métiers d'administrateurs réseau ou de
-        développeur en deux ans. Par la suite, il est possible de continuer ses études dans le domaine de l'informatique ou d'intégrer directement le marché du travail.</p>
-      <h2>Le BTS SIO propose deux spécialités :</h2>
-      <div class="formation-grid">
-        <div class="left-column">
-          <h2>L'option SISR</h2>
-          <ul>
-            <li>SISR (Solutions d’Infrastructure, Systèmes et Réseaux) : Cette spécialité forme des administrateurs réseau qui gèrent l’installation et la maintenance des infrastructures réseaux.</li>
-          </ul>
-        </div>
-        <div class="right-column">
-          <h2>L'option SISR</h2>
-          <ul>
-            <li>SLAM (Solutions Logicielles et Applications Métiers) : Cette spécialité forme des développeurs capables de concevoir des applications informatiques et des sites web.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="skills">
-    <div class="content">
-      <h2>Compétences</h2>
-      <p>Liste de mes compétences.</p>
-      <div class="skills-grid">
-        <div class="skill">
-          <span>HTML</span>
-          <div class="bar">
-            <div class="progress" style="width: 50%;"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <span>CSS</span>
-          <div class="bar">
-            <div class="progress" style="width: 50%;"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <span>JavaScript</span>
-          <div class="bar">
-            <div class="progress" style="width: 20%;"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <span>C#</span>
-          <div class="bar">
-            <div class="progress" style="width: 80%;"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <span>Node.js</span>
-          <div class="bar">
-            <div class="progress" style="width: 40%;"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <span>SQL</span>
-          <div class="bar">
-            <div class="progress" style="width: 30%;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="resume">
-    <div class="content">
-      <h2>Parcours</h2>
-      <p>Mon parcours professionnel.</p>
-      <div class="resume-list">
-        <div class="resume-item">
-          <div class="circle"></div>
-          <div class="resume-details">
-            <h3>ITIC Paris 20ème</h3>
-            <p>2ème année de BTS SIO option SLAM<br>2024-2025</p>
-          </div>
-        </div>
-        <div class="resume-item">
-          <div class="circle"></div>
-          <div class="resume-details">
-            <h3>Institut Européen F2I - Vincennes</h3>
-            <p>1ère année de BTS SIO option SLAM<br>2022 - 2023</p>
-          </div>
-        </div>
-        <div class="resume-item">
-          <div class="circle"></div>
-          <div class="resume-details">
-            <h3>Lycée Camille Claudel</h3>
-            <p>Baccalauréat STMG option Gestion Finance - Mention AB<br>2020 - 2022</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section>
+            <h1 class="display-4 mt-5">Mes projets</h1>
+            <h1 class="bold-text bg-text">Projets</h1>
+            <div class="row">
+                <!-- Projet 1 -->
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="https://picsum.photos/200/300" class="img-fluid rounded" alt="Project Image">
+                        <h3>Shopend</h3>
+                        <p>Un site Internet de vente codé en HTML, CSS, JSON et JavaScript. Ce projet est une plateforme de commerce en ligne avec une interface utilisateur réactive.</p>
+                        <a href="https://gowstpm.github.io/Shopend/" class="btn btn-primary" target="_blank">Voir le projet</a>
+                    </div>
+                </div>
+                
+                <!-- Projet 2 -->
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="https://picsum.photos/200/300" class="img-fluid rounded" alt="Project Image">
+                        <h3>PrestaSport</h3>
+                        <p>Un site Internet d'actualité sportive, construit avec HTML, CSS, JSON et JavaScript. Ce projet affiche les dernières nouvelles sportives et résultats en temps réel.</p>
+                        <a href="https://gowstpm.github.io/PrestaSport/" class="btn btn-primary" target="_blank">Voir le projet</a>
+                    </div>
+                </div>
+        
+                <!-- Projet 3 -->
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="https://picsum.photos/200/300" class="img-fluid rounded" alt="Project Image">
+                        <h3>MyBarber</h3>
+                        <p>Un site web pour un salon de coiffure, utilisant HTML, CSS, JSON et JavaScript. Ce projet inclut un calendrier de réservation et une vitrine de services de coiffure.</p>
+                        <a href="https://gowstpm.github.io/MyBarber/" class="btn btn-primary" target="_blank">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h1 class="display-4 mt-5">BTS SIO</h1>
+            <h1 class="bold-text bg-text">Le BTS SIO</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Qu'est-ce que le BTS SIO ?</h3>
+                    <p>Le BTS SIO (Services Informatiques aux Organisations) est un diplôme de niveau Bac+2 qui forme les étudiants aux métiers de l'informatique. Il vise à développer des compétences en gestion des systèmes d'information, en développement d'applications, en maintenance informatique et en gestion des infrastructures.</p>
+                    <p>Ce programme prépare les étudiants à des rôles dans le développement de solutions informatiques, la gestion de réseaux et de bases de données, ainsi qu'au conseil et à l’assistance technique pour les entreprises.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Les différentes options du BTS SIO</h3>
+                    <p>Le BTS SIO propose deux options principales :</p>
+                    <ul>
+                        <li><strong>SLAM (Solutions Logicielles et Applications Métiers)</strong>: Cette option se concentre sur le développement de logiciels, de sites web, et d’applications mobiles pour répondre aux besoins spécifiques des entreprises.</li>
+                        <li><strong>SISR (Solutions d’Infrastructure, Systèmes et Réseaux)</strong>: Cette option est plus orientée vers la gestion des infrastructures informatiques, la maintenance des réseaux et des systèmes d'information des entreprises.</li>
+                    </ul>
+                    <p><strong>Mon choix : SLAM</strong></p>
+                    <p>J'ai choisi l'option SLAM, car je suis passionné par le développement logiciel et la création de sites web. J'aime concevoir des solutions qui répondent à des besoins spécifiques et améliorer l’expérience des utilisateurs grâce à des applications modernes et performantes.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h1 class="display-4 mt-5">Mon CV</h1>
+            <h1 class="bold-text bg-text">Curriculum Vitae</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Découvrez mon CV</h3>
+                    <p>Vous pouvez consulter mon CV pour en savoir plus sur mon parcours, mes compétences et mes expériences professionnelles. Il contient toutes les informations essentielles qui démontrent ma passion pour l'informatique et mon expertise dans le domaine du développement web et du support informatique.</p>
+                    <a href="*" class="btn btn-primary" target="_blank">Télécharger mon CV</a>
+                </div>
+                <div class="col-md-6">
+                    <h3>Voir mon CV en ligne</h3>
+                    <p>Vous pouvez également consulter mon CV en ligne en cliquant sur le lien ci-dessous. Cela vous permettra de le visualiser directement dans votre navigateur.</p>
+                    <a href="*" class="btn btn-secondary" target="_blank">Voir mon CV en ligne</a>
+                </div>
+            </div>
+        </section>
+        
 
-  <section id="experience">
-    <div class="content">
-      <h2>Expériences</h2>
-      <p>Mes expériences professionnelles.</p>
+        <section class="interests pt-5 pb-5">
+
+            <h1 class="display-4">Technologies que je maîtrise</h1>
+            <h1 class="bold-text bg-text">Tech Stack</h1>
+        
+            <div class="row pt-5">
+                <div class="col-lg-4 col-md-4">
+                    <div class="icon-box">
+                        <ion-icon name="logo-html5"></ion-icon>
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <ion-icon name="logo-css3"></ion-icon>
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <ion-icon name="logo-javascript"></ion-icon>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        
+        <section>
+            <h1 class="display-4 mt-5">Expérience</h1>
+            <h1 class="bold-text bg-text">Mon parcours</h1>
+            <div class="row d-flex">
+                <div class="col-md-10">
+                    <h4 class="dmb-4 mt-2 profile-text">Je suis un développeur web et un professionnel du support informatique. J'ai travaillé pendant un an au sein de DITP en tant que support informatique, et j'ai effectué un stage de développement pendant un mois chez Militello.</h4>
+
+                    <div class="mt-3">
+                        <div class="py-4">
+                            <div class="desc">
+                                <h4>Support Informatique</h4>
+                                <p>DITP</p>
+                            </div>
+                            <div>
+                                <p>2023 - 2024</p>
+                            </div>
+                        </div>
+
+                        <div class="py-4">
+                            <div class="desc">
+                                <h4>Stagiaire Développeur</h4>
+                                <p>Militello</p>
+                            </div>
+                            <div>
+                                <p> Novembre 2024 - Decembre 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 class="display-4 mt-5">Éducation</h1>
+                    <h1 class="bold-text bg-text">Formation</h1>
+                    <div class="py-4">
+                        <div class="desc">
+                            <h4>BTS SIO option SLAM (Services Informatiques aux Organisations)</h4>
+                            <p>ITIC Paris</p>
+                        </div>
+                        <div>
+                            <p>2024 - 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="py-4">
+                        <div class="desc">
+                            <h4>Baccalauréat STMG - Option Gestion Finance</h4>
+                            <p>Lycée Camille Claudel</p>
+                        </div>
+                        <div>
+                            <p>2020 - 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="display-4 mt-5">Veille Technologique</h1>
+            <h1 class="bold-text bg-text">Veille Technologique</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>L’atout principal de la veille technologique est d’identifier ou d’anticiper des innovations par secteurs d’activité. Les sources de veille technologique constituent une information stratégique incontournable pour devancer, développer et exploiter des inventions.</p>
+                    <p>J'ai donc mis en place un dispositif d'alerte (newsletter) me permettant d'être à jour grâce à Google Alerte.</p>
+                </div>
+            </div>
+        
+            <div class="row">
+                <!-- Article 1 -->
+                <div class="col-md-6">
+                    <div class="article-card">
+                        <h3>01. L’intégration de l'intelligence artificielle</h3>
+                        <p>L'intelligence artificielle (IA) est de plus en plus utilisée pour des fonctionnalités telles que la reconnaissance vocale, la détection d'anomalies et la personnalisation des scénarios. L'IA s'adapte aux préférences des occupants de manière plus proactive et intelligente.</p>
+                        <p><strong>Des chercheurs créent une IA qui fait perdre leur temps aux arnaqueurs par téléphone</strong></p>
+                        <p>Des chercheurs de l'Université de Macquarie ont développé un chatbot appelé Apate pour se venger des arnaqueurs téléphoniques. L'IA est conçue pour tenir des conversations avec les arnaqueurs, les faisant perdre du temps sans aboutir à aucune escroquerie. L'objectif est de perturber le modèle économique des escrocs et de réduire le nombre de leurs arnaques réussies. Pour l'instant, le chatbot parvient à piéger les arnaqueurs pendant environ 5 minutes en moyenne, mais les chercheurs espèrent augmenter cette durée à 40 minutes à l'avenir. Cette initiative vise à rendre plus difficile pour les arnaqueurs de gagner de l'argent et à dissuader leurs activités frauduleuses.</p>
+                        <p><strong>Date : 26 Janvier 2021</strong></p>
+                        <p><a href="https://www.phonandroid.com/des-chercheurs-creent-une-ia-qui-fait-perdre-leur-temps-aux-arnaqueurs-par-telephone.html" target="_blank">Lire l'article complet</a></p>
+                    </div>
+                </div>
+        
+                <!-- Article 2 -->
+                <div class="col-md-6">
+                    <div class="article-card">
+                        <h3>02. La sécurité renforcée</h3>
+                        <p>La sécurité dans la domotique est devenue une priorité absolue. Les fabricants investissent davantage dans des fonctionnalités de sécurité avancées, telles que le chiffrement des données, l'authentification à deux facteurs et les mises à jour régulières du micrologiciel, afin de protéger les utilisateurs contre les cyberattaques et les violations de la vie privée.</p>
+                        <p><strong>Les maisons connectées sont-elles susceptibles de se faire hacker ?</strong></p>
+                        <p>La domotique existe depuis 20 ans, mais le concept de « maison connectée » et d'Internet des objets est, quant à lui, relativement récent. Téléviseurs, imprimantes, enceintes intelligentes, caméras, thermostats ou réfrigérateurs connectés : vos appareils du quotidien évoluent et ont un accès direct à Internet, mais à quel prix ?</p>
+                        <p><strong>Date : 4 Décembre 2023</strong></p>
+                        <p><a href="https://www.futura-sciences.com/tech/questions-reponses/cybersecurite-maisons-connectees-sont-elles-susceptibles-faire-hacker-16615/" target="_blank">Lire l'article complet</a></p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row">
+                <!-- Article 3 -->
+                <div class="col-md-6">
+                    <div class="article-card">
+                        <h3>La cybersécurité des objets connectés</h3>
+                        <p>L’UE veut réglementer la sécurité des objets connectés et garantir les mises à jour. La cybersécurité des maisons intelligentes est une préoccupation croissante, car de plus en plus d’objets connectés arrivent sur le marché, sans réelle réglementation en matière de sécurité.</p>
+                        <p><strong>L’Union européenne veut garantir la sécurité des objets connectés</strong></p>
+                        <p>Désormais, l’Union européenne veut donner aux fabricants d’appareils l’obligation légale de s’assurer que leurs produits sont à l’abri des pirates et de les mettre à jour si nécessaire pour qu’ils restent ainsi sécurisés.</p>
+                        <p><strong>Date : 1 Octobre 2022</strong></p>
+                        <p><a href="https://www.domo-blog.fr/lue-veut-reglementer-la-securite-des-objets-connectes-est-garantir-les-mises-a-jour/" target="_blank">Lire l'article complet</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h1 class="display-4 mt-5">Épreuve E4</h1>
+            <h1 class="bold-text bg-text">Épreuve E4</h1>
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Présentation de mon entreprise 📜</h3>
+                    <p>La direction interministérielle de la transformation publique (DITP) pilote le programme de transformation publique défini par le Gouvernement pour une action publique plus proche, plus simple et plus efficace. L’objectif : améliorer concrètement la vie des Français et des agents publics.</p>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Présentation de mon bureau</h3>
+                    <p>L'installation est en soi simple, un bureau, un écran de PC, un PC portable branché sur une centrale, et le tour est joué. Les utilisateurs passent à gauche de la photo pour venir nous demander un service, pendant ce temps, je gère les licences VPN, les masterisations des PC, l'enregistrement dans l'Active Directory de chaque déploiement d'ordinateurs, le changement de matériel, etc.</p>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Mes missions au sein de la DITP</h3>
+        
+                    <h4>Masterisation et déploiement des PC :</h4>
+                    <p>Pour les nouveaux arrivants ou les départs d'utilisateurs, ma responsabilité est de masteriser les ordinateurs des utilisateurs concernés. J'utilise une clé USB de master fournie par Bercy pour effectuer cette opération, afin de rendre l'ordinateur prêt à être utilisé.</p>
+                    <p>Lors de la masterisation, je dois prendre en charge différentes tâches. Tout d'abord, je monte le réseau de l'enseigne sur l'ordinateur, en configurant les paramètres de connectivité nécessaires. Cela inclut la mise en place du VPN interne pour permettre un accès sécurisé aux ressources du réseau. En parallèle, je configure également la carte à puce de l'ordinateur, en enregistrant les certificats requis et en effectuant les manipulations appropriées pour assurer un bon fonctionnement.</p>
+                    <p>Chaque étape du processus de masterisation est soigneusement enregistrée dans une fiche dédiée. Cela me permet de consigner précisément les actions réalisées et les configurations effectuées sur l'ordinateur. Cette fiche de masterisation est cruciale pour finaliser le processus de masterisation et garantir que l'ordinateur est correctement configuré, prêt à être utilisé par l'utilisateur concerné.</p>
+                    <p>En résumé, en tant que support informatique, je suis chargé de la masterisation et du déploiement des PC. Mon rôle consiste à préparer les ordinateurs en utilisant une clé USB de master, en configurant le réseau de l'enseigne, le VPN interne et la carte à puce, tout en enregistrant chaque étape dans une fiche de masterisation pour finaliser le processus.</p>
+        
+                    <h4>Déplacement/Dépannage informatique pour les utilisateurs :</h4>
+                    <p>En tant que professionnel du déplacement et du dépannage informatique, ma responsabilité est d'intervenir lorsque les utilisateurs sont confrontés à des problèmes de dernière instance et qu'aucune solution n'a été trouvée. Un exemple concret serait lorsqu'un utilisateur a une visioconférence urgente et rencontre des difficultés techniques qui l'empêchent de la mener à bien. Dans ces situations, il m'incombe de me déplacer sur place pour évaluer la situation et trouver la solution adéquate.</p>
+                    <p>Lorsque je reçois un appel urgent pour une visioconférence perturbée, je comprends l'importance de la situation et agis avec diligence. Je rassemble rapidement tous les outils nécessaires et me rends sur le lieu où se déroule la réunion. Là-bas, je commence par diagnostiquer le problème en examinant attentivement l'équipement et en identifiant les éventuelles erreurs ou dysfonctionnements.</p>
+                    <p>Une fois que j'ai identifié la source du problème, je mets en œuvre des solutions adaptées pour résoudre la situation. Cela peut impliquer la réparation ou le remplacement de composants défectueux, la configuration de logiciels spécifiques, ou encore la résolution de problèmes liés au réseau ou à la connectivité. Mon objectif principal est de rétablir rapidement la fonctionnalité de la visioconférence afin que l'utilisateur puisse mener sa réunion sans interruption.</p>
+                    <p>En plus de résoudre le problème immédiat, je prends également des mesures préventives pour éviter que des incidents similaires ne se reproduisent à l'avenir. Cela peut inclure des conseils aux utilisateurs sur l'entretien de leur équipement, la mise à jour de leurs logiciels ou la mise en place de mesures de sécurité supplémentaires.</p>
+                    <p>En fin de compte, mon rôle en tant que technicien de déplacement et de dépannage informatique est de fournir un service réactif et fiable aux utilisateurs qui se retrouvent confrontés à des problèmes urgents et complexes. Mon expertise technique, combinée à ma capacité à résoudre rapidement les problèmes, me permet de jouer un rôle essentiel dans la résolution de ces situations critiques et de garantir la continuité des activités pour les utilisateurs concernés.</p>
+        
+                    <h4>Gestion de l'Active Directory :</h4>
+                    <p>En tant que responsable de la gestion de l'Active Directory, j'ai la responsabilité de gérer un annuaire centralisé contenant toutes les informations essentielles telles que les utilisateurs, les matériels informatiques, les licences et les droits sur le réseau.</p>
+                    <p>L'Active Directory est une composante clé de l'infrastructure informatique d'une organisation, et il est de ma responsabilité de maintenir sa structure et son bon fonctionnement. Cela inclut la création et la gestion des comptes utilisateurs, l'attribution des droits d'accès appropriés, et la gestion des groupes et des unités organisationnelles.</p>
+                    <p>Grâce à l'Active Directory, je suis en mesure de gérer les informations personnelles des utilisateurs, telles que leurs noms, adresses e-mail, numéros de téléphone, ainsi que les informations liées à leurs postes de travail, tels que les adresses IP, les configurations matérielles, et les logiciels installés.</p>
+                    <p>Je veille également à maintenir à jour les informations sur les licences logicielles afin de garantir la conformité et d'optimiser les ressources de l'organisation. Cela implique de suivre les licences attribuées, de gérer les renouvellements et les mises à jour, et de veiller à ce que l'organisation dispose des licences nécessaires pour chaque logiciel utilisé.</p>
+                    <p>En plus de cela, je suis responsable de la gestion des droits d'accès sur le réseau. Cela comprend la configuration des autorisations d'accès aux dossiers partagés, aux ressources réseau et aux applications spécifiques, en fonction des besoins de chaque utilisateur ou groupe d'utilisateurs.</p>
+                    <p>En somme, la gestion de l'Active Directory est une tâche essentielle pour assurer une administration efficace des utilisateurs, des matériels informatiques, des licences et des droits sur le réseau. Grâce à une gestion rigoureuse de ces informations, je contribue à garantir la sécurité, la productivité et l'efficacité de l'infrastructure informatique de l'organisation.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section>
+            <h1 class="display-4 mt-5">Contactez-moi</h1>
+            <h1 class="bold-text bg-text">Contact</h1>
+            <div class="text-left">
+                <div class="pt-5">
+                    <h2 class="mb-5">Vous avez un projet à me confier ou vous souhaitez discuter ? Mon inbox est toujours ouvert !</h2>
+                    <ul class="social-links list-unstyled mt-4">
+                        <li><a href="kilianjunksco@gmail.com">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </a></li>
+                        <li><a href="https://github.com/gowstpm">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a></li>
+                        <li><a href="https://www.linkedin.com/in/kilian-junker-122771267/">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-5 mb-5 text-center">
+                <h4>Made with ♥ by Kilian Junker</h4>
+            </div>
+        </section>
     </div>
-  </section>
-  
 
-  <section id="projets">
-    <div class="content">
-      <h2>Mes projets personnels</h2>
-      <p>Cet article présente des projets réalisés dans le cadre de l'épreuve E4. Il inclut des sites web développés en HTML, CSS, JSON et JavaScript</p>
-      <p>Voici les liens vers les projets :</p>
-
-      <p><strong>Projet 1:</strong> Site Internet de vente en ligne.</p>
-      <a href="https://gowstpm.github.io/Shopend/"><img src="images/image2.png" class="imgProjets"></a>
-      <p><strong>Projet 2:</strong> Site Barber Shop.</p>
-      <a href="https://gowstpm.github.io/MyBarber/"><img src="images/image3.png" class="imgProjets"></a>
-
-    </div>
-  </section>
-
-  <section id="services">
-    <div class="content">
-      <h2>Veille</h2>
-      <p>Ma veille technologique.</p>
-      <div class="service-container">
-        <div class="service-box light-blue">
-          <h3>01. L’intégration de l'intelligence artificielle</h3>
-          <p>
-            L'intelligence artificielle (IA) est de plus en plus utilisée pour des fonctionnalités telles que la reconnaissance vocale, la détection d'anomalies et la personnalisation des scénarios. L'IA s'adapte aux préférences des occupants de manière plus proactive et intelligente.
-          </p>
-          <p>
-            <a href="https://www.phonandroid.com/des-chercheurs-creent-une-ia-qui-fait-perdre-leur-temps-aux-arnaqueurs-par-telephone.html" target="_blank">Lire la suite</a>
-          </p>
-        </div>
-        <div class="service-box dark-blue">
-          <h3>02. La sécurité renforcée</h3>
-          <p>
-            La sécurité dans la domotique est devenue une priorité absolue. Les fabricants investissent davantage dans des fonctionnalités de sécurité avancées, telles que le chiffrement des données, l'authentification à deux facteurs et les mises à jour régulières du micrologiciel, afin de protéger les utilisateurs contre les cyberattaques et les violations de la vie privée.
-          </p>
-          <p>
-            <a href="https://www.futura-sciences.com/tech/questions-reponses/cybersecurite-maisons-connectees-sont-elles-susceptibles-faire-hacker-16615/" target="_blank">Lire la suite</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  
-
-  <section id="contact">
-    <div class="content">
-      <h2>Contact</h2>
-      <p>Contactez-moi pour plus d'informations.</p>
-    </div>
-  </section>
+    <!-- Scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="index.js"></script>
 
 </body>
+
 </html>
