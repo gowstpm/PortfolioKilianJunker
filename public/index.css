@@ -255,3 +255,17 @@ body {
   .blog-entry .meta > div a {
     font-size: 15px;
     color: #8c8c8c; }
+
+.navbar {
+  position: relative; /* Initially relative for normal flow */
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Ensure navbar stays on top */
+    background-color: #fff; /* Optional: Add background color for better visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
