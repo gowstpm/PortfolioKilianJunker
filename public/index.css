@@ -261,6 +261,7 @@ body {
   }
 
 .sticky {
+    animation: growShrink 3s forwards; 
     position: fixed;
     top: 0;
     left: 0;
@@ -269,3 +270,31 @@ body {
     background-color: #fff; /* Optional: Add background color for better visibility */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
   }
+
+  .welcome-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: growShrink 4s forwards;
+}
+.welcome-message h1 {
+    font-size: 2em;
+    color: #333;
+}
+@keyframes growShrink {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}

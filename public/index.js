@@ -60,3 +60,8 @@ function loadGitHubInfo() {
 // Charger les informations GitHub au chargement de la page
 window.addEventListener('load', loadGitHubInfo);
 
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+        document.querySelector('.welcome-message').style.display = 'none';
+    }, 3000); // Match the duration of the animation
+});
