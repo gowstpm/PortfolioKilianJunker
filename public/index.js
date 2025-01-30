@@ -5,17 +5,6 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
-// Get the navbar
-const navbar = document.getElementById('navbar');
-
-// Function to handle the sticky effect
-window.onscroll = function() {
-    if (window.pageYOffset > 0) {
-        navbar.classList.add('sticky');
-    } else {
-        navbar.classList.remove('sticky');
-    }
-};
 
 // Smooth scrolling function
 function scrollToSection(elementId) {
@@ -65,3 +54,4 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.welcome-message').style.display = 'none';
     }, 3000); // Match the duration of the animation
 });
+

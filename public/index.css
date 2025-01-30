@@ -258,10 +258,15 @@ body {
 
 #navbar {
   position: fixed; /* Initially relative for normal flow */
+  z-index: 999;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  left: auto;
+  right: auto;
   }
 
 .sticky {
-    animation: growShrink 3s forwards; 
     position: fixed;
     top: 0;
     left: 0;
@@ -298,3 +303,4 @@ body {
     transform: translate(-50%, -50%) scale(0);
   }
 }
+
