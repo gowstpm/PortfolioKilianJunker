@@ -55,3 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 3000); // Match the duration of the animation
 });
 
+document.getElementById('firstImage').addEventListener('click', function() {
+    this.classList.add('hidden');
+});
