@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kilian Junker</title>
 
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="public/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -14,13 +14,48 @@
 </head>
 
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <a class="navbar-brand" href="#">Kilian Junker</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bts-sio">BTS SIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interests">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#veille-technologique">Veille-technologique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#epreuve-e4">Epreuve E4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <div class="container">
         <section class="landing">
@@ -28,13 +63,16 @@
                 <div class="col-lg-8 text-left pb-5">
                     <h1 class="display-1">Kilian Junker</h1>
                     <p class="lead pl-2">Alternant BTS SIO</p>
+                    <div id="github-user-info">
+                        <!-- Les informations GitHub seront chargées ici -->
+                    </div>
                 </div>
                 <div class="col-lg-4 text-center my-auto pb-5 rounded-circle"><img class="img-fluid rounded-circle"
-                        src="https://picsum.photos/512"></div>
+                        src="https://raw.githubusercontent.com/gowstpm/PortfolioKilianJunker/refs/heads/main/public/images/image1.png"></div>
             </div>
         </section>
 
-        <section class="mt-5 mb-5">
+        <section class="mt-5 mb-5" id="about">
             <h4 class="display-4">A propos de moi,</h4>
             <div class="row">
                 <div class="col-lg-6 wrap text-left">
@@ -97,14 +135,15 @@
             </div>
         </section>
 
-        <section>
+        <section id="projects">
             <h1 class="display-4 mt-5">Mes projets</h1>
             <h1 class="bold-text bg-text">Projets</h1>
+            <p></p>
             <div class="row">
                 <!-- Projet 1 -->
                 <div class="col-md-4">
                     <div class="project-card">
-                        <img src="https://picsum.photos/200/300" class="img-fluid rounded" alt="Project Image">
+                        <img src="https://raw.githubusercontent.com/gowstpm/PortfolioKilianJunker/refs/heads/main/public/images/image2.png" class="img-fluid rounded" alt="Project Image">
                         <h3>Shopend</h3>
                         <p>Un site Internet de vente codé en HTML, CSS, JSON et JavaScript. Ce projet est une plateforme de commerce en ligne avec une interface utilisateur réactive.</p>
                         <a href="https://gowstpm.github.io/Shopend/" class="btn btn-primary" target="_blank">Voir le projet</a>
@@ -124,7 +163,7 @@
                 <!-- Projet 3 -->
                 <div class="col-md-4">
                     <div class="project-card">
-                        <img src="https://picsum.photos/200/300" class="img-fluid rounded" alt="Project Image">
+                        <img src="https://raw.githubusercontent.com/gowstpm/PortfolioKilianJunker/refs/heads/main/public/images/image3.png" class="img-fluid rounded" alt="Project Image">
                         <h3>MyBarber</h3>
                         <p>Un site web pour un salon de coiffure, utilisant HTML, CSS, JSON et JavaScript. Ce projet inclut un calendrier de réservation et une vitrine de services de coiffure.</p>
                         <a href="https://gowstpm.github.io/MyBarber/" class="btn btn-primary" target="_blank">Voir le projet</a>
@@ -133,7 +172,7 @@
             </div>
         </section>
         
-        <section>
+        <section id="bts-sio">
             <h1 class="display-4 mt-5">BTS SIO</h1>
             <h1 class="bold-text bg-text">Le BTS SIO</h1>
             <div class="row">
@@ -155,7 +194,7 @@
             </div>
         </section>
         
-        <section>
+        <section id="cv">
             <h1 class="display-4 mt-5">Mon CV</h1>
             <h1 class="bold-text bg-text">Curriculum Vitae</h1>
             <div class="row">
@@ -173,7 +212,7 @@
         </section>
         
 
-        <section class="interests pt-5 pb-5">
+        <section class="interests pt-5 pb-5" id="interests">
 
             <h1 class="display-4">Technologies que je maîtrise</h1>
             <h1 class="bold-text bg-text">Tech Stack</h1>
@@ -201,7 +240,7 @@
         
         </section>
         
-        <section>
+        <section id="experience">
             <h1 class="display-4 mt-5">Expérience</h1>
             <h1 class="bold-text bg-text">Mon parcours</h1>
             <div class="row d-flex">
@@ -230,7 +269,7 @@
                         </div>
                     </div>
 
-                    <h1 class="display-4 mt-5">Éducation</h1>
+                    <h1 class="display-4 mt-5" id="education">Éducation</h1>
                     <h1 class="bold-text bg-text">Formation</h1>
                     <div class="py-4">
                         <div class="desc">
@@ -254,9 +293,9 @@
 
                 </div>
             </div>
-        </section>
+        </section>    
 
-        <section>
+        <section id="veille-technologique">
             <h1 class="display-4 mt-5">Veille Technologique</h1>
             <h1 class="bold-text bg-text">Veille Technologique</h1>
             <div class="row">
@@ -307,7 +346,7 @@
             </div>
         </section>
         
-        <section>
+        <section id="epreuve-e4">
             <h1 class="display-4 mt-5">Épreuve E4</h1>
             <h1 class="bold-text bg-text">Épreuve E4</h1>
         
@@ -354,7 +393,7 @@
         </section>
         
 
-        <section>
+        <section id="contact">
             <h1 class="display-4 mt-5">Contactez-moi</h1>
             <h1 class="bold-text bg-text">Contact</h1>
             <div class="text-left">
@@ -384,8 +423,7 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    <script src="index.js"></script>
-
+    <script src="public/index.js"></script>
 </body>
 
 </html>

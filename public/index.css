@@ -256,8 +256,8 @@ body {
     font-size: 15px;
     color: #8c8c8c; }
 
-.navbar {
-  position: relative; /* Initially relative for normal flow */
+#navbar {
+  position: fixed; /* Initially relative for normal flow */
   }
 
 .sticky {

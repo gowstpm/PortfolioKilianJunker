@@ -59,3 +59,4 @@ function loadGitHubInfo() {
 
 // Charger les informations GitHub au chargement de la page
 window.addEventListener('load', loadGitHubInfo);
+
